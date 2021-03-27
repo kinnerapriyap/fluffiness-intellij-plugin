@@ -79,6 +79,10 @@ tasks {
         jvmTarget = "1.8"
     }
 
+    runIde {
+        autoReloadPlugins = true
+    }
+
     patchPluginXml {
         version(properties("pluginVersion"))
         sinceBuild(properties("pluginSinceBuild"))
