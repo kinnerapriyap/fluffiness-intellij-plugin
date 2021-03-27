@@ -16,4 +16,16 @@
         <listener class="com.kinnerapriyap.fluffiness.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+
+    <actions>
+        <group id="fluffiness.TopMenu"
+               text="_Fluffiness"
+               description="Fluffiness menu item">
+            <add-to-group group-id="ViewMenu" anchor="last"/>
+            <action id="LogAction"
+                    class="com.kinnerapriyap.fluffiness.actions.LogAction"
+                    text="_LogAction"
+                    description="LogAction"/>
+        </group>
+    </actions>
 </idea-plugin>
