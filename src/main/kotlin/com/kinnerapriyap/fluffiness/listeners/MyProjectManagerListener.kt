@@ -1,6 +1,6 @@
-package com.github.kinnerapriyap.fluffinessintellijplugin.listeners
+package com.kinnerapriyap.fluffiness.listeners
 
-import com.github.kinnerapriyap.fluffinessintellijplugin.services.MyProjectService
+import com.kinnerapriyap.fluffiness.services.MyProjectService
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener

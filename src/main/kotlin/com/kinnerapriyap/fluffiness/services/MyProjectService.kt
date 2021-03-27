@@ -1,6 +1,6 @@
-package com.github.kinnerapriyap.fluffinessintellijplugin.services
+package com.kinnerapriyap.fluffiness.services
 
-import com.github.kinnerapriyap.fluffinessintellijplugin.MyBundle
+import com.kinnerapriyap.fluffiness.MyBundle
 import com.intellij.openapi.project.Project
 
 class MyProjectService(project: Project) {

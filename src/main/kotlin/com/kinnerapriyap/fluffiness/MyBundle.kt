@@ -1,4 +1,4 @@
-package com.github.kinnerapriyap.fluffinessintellijplugin
+package com.kinnerapriyap.fluffiness
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

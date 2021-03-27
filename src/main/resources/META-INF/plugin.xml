@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>com.github.kinnerapriyap.fluffinessintellijplugin</id>
-    <name>fluffiness-intellij-plugin</name>
+    <id>com.kinnerapriyap.fluffiness</id>
+    <name>Fluffiness</name>
     <vendor>kinnerapriyap</vendor>
 
     <!-- Product and plugin compatibility requirements -->
@@ -8,12 +8,12 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.kinnerapriyap.fluffinessintellijplugin.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.kinnerapriyap.fluffinessintellijplugin.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.kinnerapriyap.fluffiness.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.kinnerapriyap.fluffiness.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.kinnerapriyap.fluffinessintellijplugin.listeners.MyProjectManagerListener"
+        <listener class="com.kinnerapriyap.fluffiness.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>
