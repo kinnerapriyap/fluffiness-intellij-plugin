@@ -2,7 +2,10 @@
 # https://github.com/detekt/detekt/blob/master/detekt-core/src/main/resources/default-detekt-config.yml
 
 formatting:
+  autoCorrect: true
   Indentation:
     continuationIndentSize: 8
+    autoCorrect: true
   ParameterListWrapping:
     indentSize: 8
+    autoCorrect: true
